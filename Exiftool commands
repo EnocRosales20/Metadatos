@@ -2,7 +2,7 @@ ExifTool es una herramienta poderosa para leer, crear y modificar metadatos
 en una amplia variedad de archivos, incluidos los metadatos EXIF, IPTC, XMP, entre otros.
 Aquí te dejo cómo hacerlo paso a paso.
 
-*1. Leer Metadatos con ExifTool*
+**1. Leer Metadatos con ExifTool**
 Para leer los metadatos de un archivo, puedes usar el siguiente comando:
 
 exiftool nombre_del_archivo
