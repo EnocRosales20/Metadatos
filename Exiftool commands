@@ -2,7 +2,7 @@ ExifTool es una herramienta poderosa para leer, crear y modificar metadatos
 en una amplia variedad de archivos, incluidos los metadatos EXIF, IPTC, XMP, entre otros.
 Aquí te dejo cómo hacerlo paso a paso.
 
-**1. Leer Metadatos con ExifTool**
+#1. Leer Metadatos con ExifTool
 Para leer los metadatos de un archivo, puedes usar el siguiente comando:
 
 exiftool nombre_del_archivo
@@ -11,7 +11,7 @@ Ejemplo:
 
 exiftool imagen.jpg
 
-2. Crear o Modificar Metadatos con ExifTool
+#2. Crear o Modificar Metadatos con ExifTool
 Puedes agregar o modificar los metadatos de un archivo utilizando ExifTool. 
 A continuación, algunos ejemplos de cómo hacerlo:
 
@@ -38,20 +38,20 @@ exiftool -GPSLatitude= -GPSLongitude= nombre_del_archivo.jpg
 
 Esto eliminará la información de geolocalización de la imagen.
 
-3. Crear Metadatos en un Archivo
+#3. Crear Metadatos en un Archivo
 Si deseas agregar metadatos desde cero, puedes hacerlo especificando los campos que 
 quieres agregar. Ejemplo para agregar un comentario:
 
 exiftool -Comment="Este es un comentario personalizado" nombre_del_archivo.jpg
 
-4. Guardar los cambios en un nuevo archivo
+#4. Guardar los cambios en un nuevo archivo
 Por defecto, ExifTool crea una copia de respaldo del archivo original con 
 la extensión _original. Si no quieres que ExifTool cree un archivo de respaldo,
 puedes usar la opción -overwrite_original:
 
 exiftool -overwrite_original -Title="Nueva Titulo" nombre_del_archivo.jpg
 
-5. Ver todos los metadatos posibles
+#5. Ver todos los metadatos posibles
 Para ver todos los metadatos disponibles en un archivo (incluyendo EXIF, IPTC, XMP),
 puedes utilizar:
 
